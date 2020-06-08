@@ -16,7 +16,7 @@ import java.util.Objects;
 import java.util.Random;
 
 
-public final class Test extends JavaPlugin implements Listener {
+public final class BlueMonsterGameCore extends JavaPlugin implements Listener {
 
     String aooniName;
 
@@ -78,7 +78,7 @@ public final class Test extends JavaPlugin implements Listener {
 
                                                 scoreboardManager = Bukkit.getScoreboardManager();
                                                 scoreboard = Objects.requireNonNull(scoreboardManager).getNewScoreboard();
-                                                Objective objective = scoreboard.registerNewObjective("Test", "Dummy");
+                                                Objective objective = scoreboard.registerNewObjective("BlueMonsterGameCore", "Dummy");
                                                 objective.setDisplaySlot(DisplaySlot.SIDEBAR);
                                                 objective.setDisplayName(ChatColor.BLUE + "~~~~~~~~~~青鬼ごっこ~~~~~~~~~~");
 

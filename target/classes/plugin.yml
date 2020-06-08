@@ -1,6 +1,6 @@
-name: Test
+name: BlueMonsterGameCore
 version: 1.0
-main: aquarius.test.Test
+main: aquarius.test.BlueMonsterGameCore
 api-version: 1.13
 commands:
   aooni:
