@@ -1,0 +1,6 @@
+name: Test
+version: 1.0
+main: aquarius.test.Test
+api-version: 1.13
+commands:
+  aooni:
